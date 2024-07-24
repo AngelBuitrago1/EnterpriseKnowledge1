@@ -16,8 +16,8 @@ def load_config():
 
 
 config = load_config()
-api_key = config['AAI-Brain']['API-KEY']
-api_secret = config['AAI-Brain']['API-Secret']
+api_key = '20b2d447-7cbc-4617-b994-a4ce75786436'
+api_secret = 'hr/i/t5zNrlmrE0m0AjWaxPeMiQL7u+yoRHs4wmHgOc='
 
 
 def clear_session_state():
@@ -84,8 +84,8 @@ def response_generator(response_str):
         time.sleep(0.01)
         yield word
 
-st.set_page_config(page_title='Automation Anywhere - AAI Brain', page_icon = 'https://chat-beta.automationanywhere.com/assets/icon/favicon.ico', layout='wide')
-st.header("Automation Anywhere - AAI Brain")
+st.set_page_config(page_title='GBM - Automation Anywhere - AAI Brain', page_icon = 'https://chat-beta.automationanywhere.com/assets/icon/favicon.ico', layout='wide')
+st.header("GBM - Automation Anywhere - AAI Brain")
 # st.image("https://chat-beta.automationanywhere.com/static/media/aa-gen-ai-logo.17572d7b831dd1a39cf8.png")
 st.html("""
     <!doctype html>
@@ -97,6 +97,8 @@ st.html("""
     <body>
     <center> 
     <img src=https://chat-beta.automationanywhere.com/static/media/aa-gen-ai-logo.17572d7b831dd1a39cf8.png width=200>
+    <br>
+    <img src=https://www.gbm.net/wp-content/uploads/2023/07/logo-de-GBM.svg width=100>
     </center>
     </html>
 """)
